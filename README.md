@@ -1,55 +1,85 @@
-# Bakırçay Fall-2024 Game Development
+🎮 Bakırçay Fall-2024 Game Development Project: Final Submission
 
-## Project Overview
-This repository hosts the materials and instructions for a two-part game development assignment in Unity. Students will progressively build a simplified 3D matching game, divided into two phases: a midterm and a final exam.
+This project showcases a 3D Matching Game developed as part of my coursework at Bakırçay University during the Fall 2024 semester. The primary goal of this project was to improve my game development skills using Unity and gain hands-on experience in 3D object interactions, animations, and mechanics.
 
-### Assets
-All necessary models, animations, and UI assets required for this project are provided in this repository.
+🛠️ Final Submission Features
 
-## Important Notes
-- **Deadline:** Make sure to submit your repository link before the due date.
-- **Unity Version:** Ensure your project is compatible with Unity 2022.3.50 or above.
-- **Screen Capture Tips:** Ensure the gameplay is clearly visible and captures the main gameplay elements.
-- **README:** Ensure the README is detailed and includes a preview of the gameplay.
+Core Mechanics
 
-## Submission Instructions
-- **GitHub Repository:** Create a GitHub repository for your project. To submit your project, send the link with your student info to [seref@blendedgames.com](mailto:seref@blendedgames.com).
-  
-- **Repository Name (optional but preferred):** Follow the naming convention: 
-```
-bakircay-2024-gd-<StudentNumber>.
-```
+Game Area Setup
 
-- **Repository Structure:** Create a repository with a `README.md` and `.gitignore` file for Unity. Include the Unity project files organized in standard folders (Assets, Scenes, Scripts, etc.).
+The game spawns a set number of 3D object pairs (minimum of 6 pairs, resulting in 12 objects).
 
-- **Gameplay Screen Capture:** Capture a short screen recording of your game in action, showing the required functionality. Place the recording in the `README.md` file under the "Gameplay Preview" section (see example below). The capture should clearly show the game area, placement area, and UI elements.
+Objects are randomly distributed within the game boundaries.
 
-- **README.md:** Include the following sections in your README:
-  - **Project Overview:** A brief summary of the project’s goals and requirements.
-  - **Gameplay Preview:** Include a screenshot or link to a screen recording of the game.
+Drag-and-Drop Interaction
 
----
+Players can drag objects into a designated placement area.
 
-## Midterm Project (Due Date: 22 Nov 2024, Friday 23:59)
-In the midterm phase, students will:
+Objects follow the cursor smoothly and hover slightly above it for better precision.
 
-1. **Basic Game Setup:**
- - **Game Area:** Set up a central area where 3D objects are scattered randomly.
- - **Placement Area:** Create a circular placement area at the bottom of the screen where players can place objects.
+Once placed, objects remain fixed in position and are no longer affected by physics.
 
-2. **Object Interaction:**
- - **Object Movement:** Implement functionality for players to pick up and drag objects using touch or mouse input.
- - **Object Placement:** Ensure players can place only one object in the designated placement area at a time.
+Matching Mechanics
 
-  **Bonus (Optional):**	
-  - Additional creative gameplay features, visual polish, or UI enhancements beyond midterm requirements. The bonus points are optional and awarded for extra effort, such as adding subtle effects, animations, or aesthetic improvements.
+Matching two objects in the placement area triggers a disappearance animation and increases the score.
 
---- 
-## 📢 Final and Make-up Exams Announcement
+Incorrect matches are rejected, and the objects return to the game area.
 
-[Click here](https://github.com/SerefFilizcan/bakircay-2024/discussions/6) to view the full announcement on GitHub Discussions.
+New objects are spawned once all existing pairs are matched.
 
-## Example Game Preview
+Additional Features
 
- <img src="https://github.com/user-attachments/assets/2ecd843d-acbf-4518-ab2a-397911527278" width="400"> 
+Skill 1: Highlight Matchable Pairs
 
+Activating this skill highlights all potential matching pairs on the screen for 5 seconds.
+
+Skill 2: Area Clear
+
+Clears all objects in the placement area with a unique visual effect, allowing players to start fresh.
+
+Skill 3: Random Respawn
+
+Respawns all objects at random positions, giving players a new chance to strategize.
+
+🕹️ Gameplay Overview
+
+Players must drag and drop objects into a placement area to match pairs and earn points.
+
+How to Play:
+
+Drag & Drop: Select any object and move it to the placement area.
+
+Match: Pair the object with its match in the placement area to make both disappear and score points.
+
+Use Skills: Activate any of the three unique skills to gain an edge during gameplay.
+
+🎥 Gameplay Preview
+
+🖼️ Screenshots:
+
+g0, g1, g2, g3
+
+🎬 Demo Video:(Insert Demo Game Video link here)
+
+📝 Technical Notes
+
+Unity Version: Unity 2022.3.31f
+
+Assets Used: Low-Poly Objects Pack
+
+Visual Design: Utilized a soft skybox and clean plane colors for a polished look.
+
+Animations: Implemented using Unity Animator with particle effects for skills and matching actions.
+
+🎮 Playable Game Link
+
+👉 Play the Game Here
+
+Thank you for taking the time to review my project! 😊
+
+Name: Yasemin Bahsi
+
+Student Number: 210601050
+
+GitHub Repository: 3D Matching Game Repository
