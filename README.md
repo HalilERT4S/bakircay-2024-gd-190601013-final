@@ -30,17 +30,17 @@ New objects are spawned once all existing pairs are matched.
 
 Additional Features
 
-Skill 1: Highlight Matchable Pairs
+Same Object Disappearance Animation
 
-Activating this skill highlights all potential matching pairs on the screen for 5 seconds.
+When matching objects are brought into the placement area, they disappear with an animation, adding a visual reward for successful matches.
 
-Skill 2: Area Clear
+Object Translation Shortcut
 
-Clears all objects in the placement area with a unique visual effect, allowing players to start fresh.
+Players can quickly move objects closer to the placement area, creating a shortcut for easier placement.
 
-Skill 3: Random Respawn
+Tornado Feature
 
-Respawns all objects at random positions, giving players a new chance to strategize.
+Introduces a tornado mechanic that rotates and scatters objects within the game area, providing a dynamic and visually exciting gameplay element.
 
 🕹️ Gameplay Overview
 
@@ -56,13 +56,13 @@ Use Skills: Activate any of the three unique skills to gain an edge during gamep
 
 🎥 Gameplay Preview
 
-🖼️ Screenshots:
+🟩 Screenshots:
 
 g0, g1, g2, g3
 
-🎬 Demo Video:(Insert Demo Game Video link here)
+🎮 Demo Video:(Insert Demo Game Video link here)
 
-📝 Technical Notes
+🖍️ Technical Notes
 
 Unity Version: Unity 2022.3.31f
 
@@ -74,7 +74,7 @@ Animations: Implemented using Unity Animator with particle effects for skills an
 
 🎮 Playable Game Link
 
-👉 Play the Game Here
+👉 Play the Game Here https://play.unity.com/en/games/a148b65c-a65e-48ba-9561-83aad728f314/buildandpublish
 
 Thank you for taking the time to review my project! 😊
 
@@ -83,4 +83,3 @@ Name: Abdülhalil ERTAŞ
 Student Number: 190601013
 
 GitHub Repository: 3D Matching Game Repository
-https://play.unity.com/en/games/a148b65c-a65e-48ba-9561-83aad728f314/buildandpublish
