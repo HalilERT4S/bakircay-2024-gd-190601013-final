@@ -78,8 +78,8 @@ Animations: Implemented using Unity Animator with particle effects for skills an
 
 Thank you for taking the time to review my project! 😊
 
-Name: Yasemin Bahsi
+Name: Abdülhalil ERTAŞ
 
-Student Number: 210601050
+Student Number: 190601013
 
 GitHub Repository: 3D Matching Game Repository
